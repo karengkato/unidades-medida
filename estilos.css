@@ -1,0 +1,23 @@
+html{font-size: 24px;}/*establece los pixeles de toda la pagina*/
+
+h1{font-size: 16px;}/*el h1 tendra un tamaño de fuente de 16px*/
+h2{font-size: 1rem;}/*equivale a 24px, debido a que se ajusta a los pixeles determinados*/
+h3{font-size: 1.75rem;}/*equivale a 42 px, por la misma razon de los pixeles establecidos en toda la pagina web*/
+h4{font-size: 1.5rem;}/*equivale a 36 pixeles debido a que 1 rem es igual a 24px*/
+h5{font-size: 1.25rem;}/*equivale a 30 pixeles debido a que los rem se ajustan a los pixeles de la pagina*/
+h6{font-size: 1.05rem;}/*equivalen a 25.2 pixeles por lo mimso que se dijo anteriormente*/
+
+.contenedor{
+ width: 70%;/*la anchura del conenedor sera del 70%*/
+height: 400px;/*la altura que tendra el contenedor sera de 400px*/
+background-color: aqua;/*el color de fondo del contenedor sera aqua*/
+margin: 30px auto;/*el margen sera 30 pixeles automatico*/
+}
+
+
+.hijo{
+width: 70vw;/*se ajusta al 70% del ancho de la pantalla*/
+height: 50vh;/*se ajusta al 50% de altura de la pantalla*/
+background-color:blueviolet;/*determina el color del fondo del hijo*/
+margin:auto;/*tiene un margen que se ajusta automaticamente al padre*/
+}
